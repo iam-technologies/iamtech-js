@@ -1,14 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import './scss/globals';
+import Home from './pages/Home';
+import './scss/globals/index.scss';
 
 function App() {
   return (
     <div>
       <Router>
         <Switch>
-          <Route></Route>
+          <Route component={Home} />
         </Switch>
       </Router>
     </div>
