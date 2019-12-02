@@ -1,0 +1,27 @@
+@import '../abstracts';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-appearance: none;
+  font-family: $main-font;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px; 10px/16px = 62.5%
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  border:none;
+  background: none;
+}

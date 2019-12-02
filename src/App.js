@@ -1,8 +1,12 @@
 import React from 'react';
 
+import './scss/globals';
+
 function App() {
   return (
-    <div>{'Cristiam\'s Create React App boileplate'}</div>
+    <div>
+      
+    </div>
   );
 }
 

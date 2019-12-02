@@ -1,0 +1,28 @@
+// FLEX BASICS
+
+@mixin flex ($direction: row, $justify: space-between, $align: center, $wrap: nowrap) {
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;   
+}
+
+@mixin centerAbsoluteX() {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+@mixin centerAbsoluteY() {
+    position: absolute;
+    left: 50%;
+    transform: translate(0, -50%);
+}
+
+@mixin centerAbsolute() {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
