@@ -26,14 +26,14 @@ const Form = () => {
       <form onSubmit={handleSubmit}>
         <div className="form-field">
           <label htmlFor="name">Name</label>
-          <input type="text" {...useInput('name',  'isRequired')}/>
+          <input type="text" {...useInput('name', 'isRequired')}/>
           <div className="form-errors">
             {showErrors.name && errors.name && errors.name.map(err => <div key={err} className="form-errors-item">{ERRORS_TEXT[err]}</div>)}
           </div>
         </div>
         <div className="form-field">
           <label htmlFor="email">Email</label>
-          <input type="text" {...useInput('email',  'isEmail,isRequired')}/>
+          <input type="text" {...useInput('email', 'isEmail,isRequired')}/>
           <div className="form-errors">
             {showErrors.email && errors.email && errors.email.map(err => <div key={err} className="form-errors-item">{ERRORS_TEXT[err]}</div>)}
           </div>
