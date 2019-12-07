@@ -33,6 +33,10 @@
         }],
         "comma-dangle": ["error", { "functions": "ignore" }],
         "no-underscore-dangle": ["error", { "allow": ["_id"] }],
-        "react/react-in-jsx-scope": 0
+        "react/react-in-jsx-scope": 0,
+        "react/jsx-props-no-spreading": {
+            "custom": "ignore",
+            "html": "ignore"
+        }
     }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import Home from './pages/Home';
+import Form from './pages/Form';
 import './scss/globals/index.scss';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div>
       <Router>
         <Switch>
-          <Route component={Home} />
+          <Route component={Form} />
         </Switch>
       </Router>
     </div>

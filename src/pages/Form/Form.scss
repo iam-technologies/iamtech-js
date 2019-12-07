@@ -1,0 +1,23 @@
+.form {
+  padding: 10%;
+  width: 50%; 
+  margin: 10% auto;
+
+  .form-field {
+    margin-bottom: 5%;
+  }
+
+  .form-errors {
+    margin-top: 5px;
+
+    .form-errors-item {
+      color: tomato;
+    }
+  }
+}
+
+input {
+  &.has-error {
+    border: 1px solid tomato;
+  }
+}
