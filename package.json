@@ -46,7 +46,9 @@
     "node-sass": "^4.13.0"
   },
   "bit": {
-    "env": {},
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.5"
+    },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "yarn"
   }
