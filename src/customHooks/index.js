@@ -1,4 +1,4 @@
-import useForm from './form/useForm';
+import useForm from './useForm';
 
 export {
   useForm
