@@ -1,1 +1,16 @@
 @import './resets';
+
+#iam-js-app {
+  margin: 5% auto;
+  max-width: 80%;
+  padding: 10%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 0px #cdcdcd;
+}
+
+.code{ 
+  font-family: 'Courier New', Courier, monospace;;
+  background-color: lightgray;
+  padding: 0.5% 1%;
+}
