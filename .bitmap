@@ -58,6 +58,19 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "iamtechnologies.iamtech-js/use-is-browser@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/customHooks/useIsBrowser/index.js",
+                "test": false,
+                "name": "index.js"
+            }
+        ],
+        "mainFile": "src/customHooks/useIsBrowser/index.js",
+        "trackDir": "src/customHooks/useIsBrowser",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "iamtechnologies.iamtech-js/visual-number@0.0.2": {
         "files": [
             {
