@@ -71,6 +71,19 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "iamtechnologies.iamtech-js/use-on-click-outside@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/customHooks/useOnClickOutside/useOnClickOutside.js",
+                "test": false,
+                "name": "useOnClickOutside.js"
+            }
+        ],
+        "mainFile": "src/customHooks/useOnClickOutside/useOnClickOutside.js",
+        "trackDir": "src/customHooks/useOnClickOutside",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "iamtechnologies.iamtech-js/visual-number@0.0.2": {
         "files": [
             {
